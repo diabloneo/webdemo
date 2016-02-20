@@ -5,3 +5,4 @@
 pbr<2.0,>=0.11
 pecan
 WSME
+SQLAlchemy<1.1.0,>=0.9.9
