@@ -15,7 +15,7 @@ def get_engine():
     if _ENGINE is not None:
         return _ENGINE
 
-    _ENGINE = create_engine('sqlite:///webdemo.db')
+    _ENGINE = create_engine('sqlite:///../../webdemo.db')
     return _ENGINE
 
 
